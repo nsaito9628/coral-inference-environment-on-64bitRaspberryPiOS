@@ -1,0 +1,1 @@
+sudo python3 capture_detection_cv2.py --model ./mobilenet_ssd_v1_coco_quant_postprocess_edgetpu.tflite --label coco_labels.txt --keep_aspect_ratio --threshold 0.5
