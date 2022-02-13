@@ -36,7 +36,7 @@ Language: python 3.7.2
 1.  Prepare RaspberryPi OS image disc.  https://www.raspberrypi.com/software/
 2. Insert the OS image disc into the Raspberry Pi and turn on the power.
 3. Make initial settings for Raspberry Pi, ssh/VNC available and connect to the Internet.  
-4. Connect c270n to USB 2.0 port  
+4. Connect c270n to USB 2.0 port.  
 <br>
 
 ### **Building an environment on Raspberry Pi**
@@ -53,11 +53,13 @@ cp ./coral-inference-environment-on-64bitRaspberryPiOS/*.sh ~
 cp ./coral-inference-environment-on-64bitRaspberryPiOS/sample/* ~
 ```
 
-Download and unpack the required packages
+Download and unpack the required packages.
 ```sh
 sudo chmod u+x environment.sh
 ./environment.sh
-```
+```  
+  
+Insert Coral USB Accelerator to USB3.0 port.  
 <br>
 
 ### **Confirmation of human detection operation**
